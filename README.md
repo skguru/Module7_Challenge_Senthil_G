@@ -18,6 +18,8 @@ Following files support the above summary:
 
 -challenge.sql 
 
+-ERD_challenge.png
+
 -CSV files were created using the tables identified above: 
   
     -Retirement_with_title.csv
