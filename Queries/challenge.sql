@@ -56,11 +56,12 @@ select * from title_count
 --Identify the mentors
 
 --create hiring eligibility table
+--using birthdate as the condition; challenge condition looks erroneous as it identifies hiredate
 
 SELECT e.emp_no, e.first_name, e.last_name
 into hiring_eligible
 FROM employees as e
-where (hire_date BETWEEN '1985-01-01' AND '1985-12-31');
+where (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31');
 
 --create mentor table; create csv of this table
 
